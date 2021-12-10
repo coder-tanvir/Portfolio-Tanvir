@@ -135,7 +135,7 @@ header {
   border-radius: 50%;
 }
 
-.r-p {
+.reducation-p {
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -143,4 +143,25 @@ header {
 /********Education*********/
 .coloring {
   background-color: whitesmoke;
+}
+
+/*****My Skills*******/
+.skills .progress {
+  height: 10px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.progress-bar {
+  background-color: rgb(66, 206, 66) !important;
+}
+
+.r-p {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.rskills-p {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
