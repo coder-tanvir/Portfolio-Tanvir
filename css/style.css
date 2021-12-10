@@ -19,6 +19,9 @@ p {
   color: #6c757d;
 }
 
+.typing-text {
+  color: salmon;
+}
 nav.r-nav {
   background: transparent;
   padding: 20px 0;
@@ -135,4 +138,9 @@ header {
 .r-p {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+/********Education*********/
+.coloring {
+  background-color: whitesmoke;
 }
