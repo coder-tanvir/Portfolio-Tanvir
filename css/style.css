@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-body {
-  background-color: black;
-}
-
 h1,
 h2,
 h3,
@@ -126,4 +122,17 @@ header {
 
 .content-box p {
   color: #fff;
+}
+
+/*************************About me*************/
+
+.custom {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  filter: brightness(70%);
+  border-radius: 50%;
+}
+
+.r-p {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
