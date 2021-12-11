@@ -176,6 +176,7 @@ header {
   width: 200px;
   height: 200px;
   object-fit: cover;
+  object-position: center;
 }
 
 .testimony .test-item i {
@@ -184,8 +185,13 @@ header {
 
 .test-item p.test-name {
   font-size: 18px;
+  font-weight: bold !important;
 }
 
 .text-muted {
   font-size: 20px;
+}
+
+.description {
+  color: coral !important;
 }
