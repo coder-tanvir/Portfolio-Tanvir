@@ -153,7 +153,7 @@ header {
 }
 
 .progress-bar {
-  background-color: rgb(66, 206, 66) !important;
+  background-color: salmon !important;
 }
 
 .r-p {
@@ -164,4 +164,28 @@ header {
 .rskills-p {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+/*****************Services***************/
+
+.testimony .test-item {
+  max-width: 500px;
+  margin: 50px auto;
+}
+.testimony .test-item .test-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.testimony .test-item i {
+  color: grey;
+}
+
+.test-item p.test-name {
+  font-size: 18px;
+}
+
+.text-muted {
+  font-size: 20px;
 }

@@ -35,8 +35,18 @@ $(document).ready(function () {
       p[16].setAttribute("style", "width:80%;transition:2s all");
       p[17].setAttribute("style", "width:90%;transition:3s all");
     },
-    offset: "90%",
+    offset: "80%",
   });
-
-  //////////
+  //////////Services
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    // margin:10,   // since one item ou can remove it
+    nav: false,
+    // dots:true,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    items: 1,
+    // animateOut : "fadeOut",
+    animateIn: "fadeInRight",
+  });
 });

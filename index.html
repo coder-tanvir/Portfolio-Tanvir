@@ -19,6 +19,8 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="lib/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owl.theme.default.min.css">
     <title>Tanvir_khan_Portfolio</title>
   </head>
   <body>
@@ -58,7 +60,7 @@
               <a href="" class="nav-link">CONTACT</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">SERVICES</a>
+              <a href="#testimony" class="nav-link">SERVICES</a>
             </li>
           </ul>
         </div>
@@ -126,6 +128,21 @@
             <h2>Education</h2>
             <h3>Bachelor's of Computer Science</h3>
             <h3>Simon Frasaer university (2016-2021)</h3>
+            <ul class="list-group list-group-md mt-3">
+              <li class="list-group-item">CMPT 225- Data structures and algorithm</li>
+              <li class="list-group-item">CMPT 295- Hardware language</li>
+              <li class="list-group-item">CMPT 275- Intoduction to software Engineering</li>
+              <li class="list-group-item">CMPT 300- Operating systems 1</li>
+              <li class="list-group-item">CMPT 307- Advanced Data structures and algorithm</li>
+              <li class="list-group-item">CMPT 318- Anomaly detection</li>
+              <li class="list-group-item">CMPT 371- Networking 1</li>
+              <li class="list-group-item">CMPT 354- Database 1</li>
+              <li class="list-group-item">CMPT 383- Programming languages</li>
+              <li class="list-group-item">CMPT 414- Computer model based vision (Image detection)</li>
+              <li class="list-group-item">CMPT 470- Web development</li>
+              <li class="list-group-item">CMPT 474- Cloud based programming</li>
+              <li class="list-group-item">CMPT 475- Requirements Engineering</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -236,7 +253,79 @@
     </div>
     </section>
 
+    <!--Services-->
+    <section class="testimony r-p  bg-sec" id="testimony">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col way-fade-right">
+            <h2>Services</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="owl-carousel owl-theme">
+  
+              <div class="item">
+                <div class="test-item text-center">
+                  
+                  <div class="imagesize"><img src="images/background.jpg" class="mx-auto rounded-circle test-img"></div>
+                  <p class="text-muted font-italic">Front-end Designing</p>
+                  <p class="test-name">Html, Css, Bootstarp, Wordpress Jquery,</p>
+                </div>
+              </div>
+  
+              <div class="item">
+                <div class="test-item text-center">
+                
+                  <div class="imagesize"><img src="images/CVpic.jpg" class="mx-auto rounded-circle test-img"></div>
+                  <p class="text-muted font-italic mt-3">Backend-end developer</p>
+                  <p class="test-name">Javascript, Node.js, PHP, Typescipt</p>
+                </div>
+              </div>
+  
+              <div class="item">
+                <div class="test-item text-center">
+                  
+                  <div class="imagesize"><img src="images/background.jpg" class="mx-auto rounded-circle test-img"></div>
+                  <p class="text-muted font-italic">Application</p>
+                  <p class="test-name">Java, Android</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="test-item text-center">
+                  
+                  <div class="imagesize"><img src="images/background.jpg" class="mx-auto rounded-circle test-img"></div>
+                  <p class="text-muted font-italic">Programming Languages</p>
+                  <p class="test-name">C,C++,Python</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="test-item text-center">
+                  
+                  <div class="imagesize"><img src="images/background.jpg" class="mx-auto rounded-circle test-img"></div>
+                  <p class="text-muted font-italic">UI/UX</p>
+                  <p class="test-name">Figma, Sketch</p>
+                </div>
+              </div>
+  
+              <div class="item">
+                <div class="test-item text-center">
+                  
+                  <div class="imagesize"><img src="images/CVpic.jpg" class="mx-auto rounded-circle test-img"></div>
+                  <p class="text-muted font-italic mt-3">Database</p>
+                  <p class="test-name">MongoDB, MySQL, Postgre, SQLLite</p>
+                </div>
+              </div>
+  
+            </div>
+  
+  
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!--Services ends-->
     <!--Dependencies-->
 
     <script src="lib/jquery-3.6.0.min.js"></script>
@@ -245,6 +334,7 @@
     <script src="js/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="lib/jquery.waypoints.min.js"></script>
+    <script src="lib/owl.carousel.min.js"></script>
 
     <script>
         var type = new Typed(".typing-text", {
