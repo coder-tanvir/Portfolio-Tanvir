@@ -44,7 +44,7 @@ $(document).ready(function () {
     nav: false,
     // dots:true,
     autoplay: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 9000,
     items: 1,
     // animateOut : "fadeOut",
     animateIn: "fadeInRight",
