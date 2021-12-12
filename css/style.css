@@ -134,7 +134,10 @@ header {
   filter: brightness(70%);
   border-radius: 50%;
 }
-
+.heightabout {
+  height: 50px;
+  width: 100%;
+}
 .reducation-p {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -145,7 +148,16 @@ header {
   background-color: whitesmoke;
 }
 
+.heighteducation {
+  height: 50px;
+  width: 100%;
+}
+
 /*****My Skills*******/
+.heightskills {
+  height: 100px;
+  width: 100%;
+}
 .skills .progress {
   height: 10px;
   border-radius: 20px;
@@ -192,7 +204,11 @@ header {
   font-size: 20px;
   font-weight: bold;
 }
-
+.heightservices {
+  height: 100px;
+  width: 100%;
+  background-color: whitesmoke !important;
+}
 .description {
   color: coral !important;
 }
@@ -204,7 +220,7 @@ header {
 }
 
 .projectfooter {
-  height: 200px;
+  height: 100px;
   width: 100%;
   background-color: whitesmoke;
 }
@@ -215,4 +231,15 @@ header {
 
 .custom-hover:hover {
   background-color: salmon !important;
+}
+
+.heightdiv {
+  height: 100px;
+  width: 100%;
+}
+
+/*************Footer************/
+footer {
+  height: 200px;
+  background-color: #333333;
 }
