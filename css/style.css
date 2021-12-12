@@ -195,3 +195,23 @@ header {
 .description {
   color: coral !important;
 }
+
+/***********Projects start***************/
+.rprojects-p {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.projectfooter {
+  height: 200px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.row.equal-height > [class*="col-"] {
+  display: flex;
+}
+
+.custom-hover:hover {
+  background-color: salmon !important;
+}

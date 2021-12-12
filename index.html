@@ -336,10 +336,332 @@
     <!--Services ends-->
 
     <!--Project starts-->
-    <section id="projects r-p" class="px-4 px-xl-0">
+    <section id="menu-items .rprojects-p" class="px-4 px-xl-0">
+      <h2 class="justify-content-center text-center">Projects- My works</h2>
+      <div id="accordion justify-content-center" data-children=".item">
+        <div class="row d-flex justify-content-center my-3 aw-row-override">
+          <div class="col-6 col-sm-3 col-md-2 p-1 mb-2">
+            <button
+              class="btn btn-block btn-outline-danger custom-hover"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-parent="#accordion"
+              href="#accordionDrinks"
+              aria-expanded="false"
+            >
+              Web App
+            </button>
+          </div>
+          <div class="col-6 col-sm-3 col-md-2 p-1 mb-2">
+            <button
+              class="btn btn-block btn-outline-danger custom-hover"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-parent="#accordion"
+              href="#accordionApp"
+              aria-expanded="false"
+            >
+              Android
+            </button>
+          </div>
+          <div class="col-6 col-sm-3 col-md-2 p-1 mb-2">
+            <button
+              class="btn btn-block btn-outline-danger custom-hover"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-parent="#accordion"
+              href="#accordionMeals"
+              aria-expanded="false"
+            >
+              C, C++, Python
+            </button>
+          </div>
+          <div class="col-6 col-sm-3 col-md-2 p-1 mb-2">
+            <button
+              class="btn btn-block btn-outline-danger custom-hover"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-parent="#accordion"
+              href="#accordionDesserts"
+              aria-expanded="false" 
+            >
+              Others
+            </button>
+          </div>
+        </div>
+        <!--Items-->
+        <div class="item">
+          <div id="accordionDrinks" class="collapse" role="tabpanel">
+            <div class="row equal-height">
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <img
+                    src="images/landingpagelogo.png"
+                    alt="Chai Latte"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">DineIn</h4>
+                    <p class="card-text">
+                      Catering website, where customers and caterers can meet. Catering services post their menu with basic some informations. Customers will be able to read see those menus and search based on location(area name). They can order using the phone number. Authentication and authorization is built using passport library. <strong>Node.js, Pug, Js, MongoDB, Jquery</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Second item-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <img
+                    src="images/alanai.PNG"
+                    alt="Chai Latte"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">AI News</h4>
+                    <p class="card-text">
+                      Voice powered news reader application. User can ask for news by headlines, categories (business,sports), keywords. Commands are listed in the interface. Application will make an API call and get those news. News will be presented in the list form. If the user wants the AI will read the voice headlines one by one. User can also get the details of any news.<strong> React.js, Alan AI, News API</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Second item ends-->
+              <!--Third web-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <img
+                    src="images/Myblog.PNG"
+                    alt="Chai Latte"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">MyBlog</h4>
+                    <p class="card-text">
+                      Personal blog with PHP. I can post article with picture and some text. Article is rendered in index.php page. When I login I can edit, delete any article. Data is saved in database and rendered with pagination.
+                      Database connection is local.
+                    <strong>PHP, MYSQL, BootStrap</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Third web ends-->
+              <!--Fourth starts-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <img
+                    src="images/recipebook.PNG"
+                    alt="Chai Latte"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Recipes</h4>
+                    <p class="card-text">
+                      Simple React application that has a search bar. User types an item such as(chicken, beef etc.) and the application makes an api call. Results are limited to 10. results are rendered in cards using flex.
+                    <strong>React.js, Edmamm APi</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Fourth ends-->
+            </div>
+          </div>
+        </div>
+        <!--Android starts-->
+        <div class="item">
+          <div id="accordionApp" class="collapse" role="tabpanel">
+            <div class="row equal-height">
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
 
+                  <div class="card-body">
+                    <h4 class="card-title">Food inspector</h4>
+                    <p class="card-text">
+                      This is an Android application that, gets restaurant inspection's data from Fraser health website in Json format. when the user opens the application, google map overview is shown, where user can zoom in and select a restaurant , with their last inspection's worst violation. when the user presses on a restaurant all the violations such as dirty utensils, stale food etc, are listed based on the date.  Violations have colors and images as details. It has three languages English, French and Spanish. [Worked in a team of 5, stored in GITLAB SFU] <strong>Android, Java</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Second one-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+
+                  <div class="card-body">
+                    <h4 class="card-title">Mine Sweeper</h4>
+                    <p class="card-text">
+                      Minesweeper is an android game where user can select the board size and the number of mines. The objective is to clear all mines with least number of scans. Each click counts as one scan. When a board tile is clicked, it shows how many mines are in the row and column combined. User can think and clear all the mines in the board.<strong>Java, Android</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--ends here-->
+              
+            </div>
+          </div>
+        </div>
+        <!--Android Ends-->
+        <!--C++,Python-->
+        <div class="item">
+          <div id="accordionMeals" class="collapse show" role="tabpanel">
+            <div class="row equal-height">
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Virtual Banking</h4>
+                    <p class="card-text">
+                      This is simple banking application where, people can deposit money, withdraw money check their balance, last deposit, withdrawal. bank has many 
+                      ATMs. People will come into the bank and get into a queue. Some customers will be in the ATM machines, after a fixed amount of time, they will go out and people from queue will come in.<strong>OOP,queue,C++</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--second python-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Binary tree search of people</h4>
+                    <p class="card-text">
+                      Data-structure project, there is a list of people with names and age. The project saves them in a binary data-structures and retrieves them with a binary search. <strong>OOP, Node*,C++</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--second ends-->
+              <!--Third starts-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Tic-Tac-Toe (AI)</h4>
+                    <p class="card-text">
+                      Tic-Tac-Toe where the user plays against teh computer. User selects player 'X' or 'Y' meaning if he/she wants to go first. User makes his move, then the A.I. simulates the game 1000 time, noting the winning move, then completes the move. This way it will keep playiong till the game comes to an end. <strong>Python, Aima python, Monte-carlo search method</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Third ends-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Knowledge base</h4>
+                    <p class="card-text">
+                      Knowledge base is used in every A.I. projects. This is a simpler version where the a text file has all elements it needs to complete an office such as desk, chairs etc. Then if the user enters some of the things, then the programme will say the remaining things needed to complete the whole office. <strong>Python</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Fourth starts -->
+              <!--Fourth ends-->
+            </div>
+          </div>
+        </div>
+        <!--Python ends-->
+        <!--Others starts-->
+        <div class="item">
+          <div id="accordionDesserts" class="collapse" role="tabpanel">
+            <div class="row equal-height">
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Database</h4>
+                    <p class="card-text">
+                      Database of Soccer teams with players, entity relationship between them. Some complex queries to show particular resluts. Stats of the teams 
+                      winning records. Stats based on championship runs etc.<strong>SQLLITE</strong>
+                      Also worked on relational and non-relational, scalable databases. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Second strats-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Networking</h4>
+                    <p class="card-text">
+                      1. Sending a ping request and receving back packet size, avg.time needed to complete and recieve back results.<strong>Python</strong>
+                      2. creating a proxy server, which is able to respond to user requested results if the contents exists in the computer.<strong>Python</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Second ends-->
+              <!--Third strats-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Computer vision</h4>
+                    <p class="card-text">
+                      k-mean clustering, which is used in image detection for seperating area of interest from teh background. Image segmentation with mean shift algorithm. Label segmentation to extract different objects from an image and labelling them.<strong>MatLab</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Third ends-->
+              <!--Fourth starts-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Cloud Computing</h4>
+                    <p class="card-text">
+                      Aws deployment, lambda functions, deploying with buckets, amazon cognito etc. <strong>AWS</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Fourth ends-->
+              <!--Fifth strats-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Requirements Engineering</h4>
+                    <p class="card-text">
+                      The papers described how, total calorie is counted from an image based on depth, ingredients and calorie chart. Requirements of  design, system requirements, stakeholders were extracted form these scientific papers. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Fifth end-->
+              <!--Sixth starts-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Advanced Data-structures</h4>
+                    <p class="card-text">
+                      Dynamic programming- Cut rod problem, Prim's algorithm, sorting algorithms, Greedy algorithm, Heap-sort, matrix-chain multiplication etc.<strong>C++,C</strong> 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Sixth ends-->
+              <!--Seventh starts-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Anomaly Detection</h4>
+                    <p class="card-text">
+                      Some data was provided of power comsumption of a grid. Basic data analysis, labelling data by date and times. Making a threshold based on previous power consumption. Plotting all the values and pointing out the anomalies.<strong>R</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Seventh ends-->
+              <!--Eight starts-->
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Operating systems</h4>
+                    <p class="card-text">
+                      Memory management system, kernel computing, chocolate factory with deadlock and semaphores. <Strong>C</Strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Eight ends-->
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projectfooter"></div>
     </section>
-    
+    <!--Project ends-->
     <!--Dependencies-->
 
     <script src="lib/jquery-3.6.0.min.js"></script>
