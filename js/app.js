@@ -49,4 +49,8 @@ $(document).ready(function () {
     // animateOut : "fadeOut",
     animateIn: "fadeInRight",
   });
+
+  $("a").smoothScroll({
+    speed: 3000,
+  });
 });

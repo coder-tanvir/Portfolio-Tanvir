@@ -3,6 +3,20 @@
   padding: 0;
 }
 
+.startheader {
+  animation: fadeInDown;
+  animation-duration: 2s;
+}
+
+.startpara {
+  animation: slideInRight;
+  animation-duration: 2s;
+}
+
+.cvbutton {
+  animation: fadeInUp;
+  animation-duration: 2s;
+}
 h1,
 h2,
 h3,
