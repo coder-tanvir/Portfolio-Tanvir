@@ -90,7 +90,7 @@ nav.stickyadd .navbar-nav .nav-link {
   color: #000;
 }
 
-/* Header */
+/* Header **************************************************************************/
 
 header {
   height: 100vh;
@@ -100,6 +100,63 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.bubbles img {
+  width: 5px;
+  animation: bubble 15s linear infinite;
+}
+
+.bubbles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: -30px;
+  position: absolute;
+}
+
+@keyframes bubble {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    width: 15px;
+  }
+  70% {
+    opacity: 1;
+    width: 20px;
+  }
+  100% {
+    transform: translateY(60vh);
+    opacity: 0;
+  }
+}
+
+.bubbles img:nth-child(1) {
+  animation-delay: 2s;
+  width: 20px;
+}
+.bubbles img:nth-child(2) {
+  animation-delay: 3s;
+  width: 22px;
+}
+.bubbles img:nth-child(3) {
+  animation-delay: 1s;
+  width: 17px;
+}
+.bubbles img:nth-child(4) {
+  animation-delay: 3s;
+  width: 20px;
+}
+.bubbles img:nth-child(5) {
+  animation-delay: 5s;
+  width: 17px;
+}
+.bubbles img:nth-child(6) {
+  animation-delay: 6s;
+  width: 17px;
 }
 
 .header-content {
