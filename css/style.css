@@ -328,5 +328,16 @@ header {
 /*************Footer************/
 footer {
   height: 200px;
-  background-color: #333333;
+  background-image: url("/images/footerimage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footerbutton {
+  color: white !important;
+  background-color: transparent !important;
+  filter: brightness(100%);
+  opacity: 1;
+  border: 2px solid white !important;
 }
