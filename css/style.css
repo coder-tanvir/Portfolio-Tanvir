@@ -265,6 +265,21 @@ header {
   padding-bottom: 60px;
 }
 
+/***************Experience*********************/
+
+.r-px {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.height-experience {
+  height: 100px;
+  width: 100%;
+  background-color: whitesmoke !important;
+}
+.ex-header {
+  color: coral !important;
+}
 /*****************Services***************/
 
 .testimony .test-item {
